@@ -4,25 +4,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
 public class BaseClass {
-	protected WebDriver driver = new ChromeDriver();
-@BeforeTest
-public void SetUp() {
-	WebDriverManager.chromedriver().setup();
-}
+	public static WebDriver driver = new ChromeDriver();
 
-@Test
-public void LogoTest() {
-	driver.get("https://demo.nopcommerce.com/register");
-}
-
-@AfterTest
-public void TearDown() {
-	driver.quit();
-}
+	@BeforeTest
+	public void SetUp() {
+		WebDriverManager.chromedriver().setup();	
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.get("https://demo.nopcommerce.com/");
+	}
+	
+	@AfterTest
+	public void TearDown() {
+//		driver.quit();
+	}
 }
