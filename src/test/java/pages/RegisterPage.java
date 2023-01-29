@@ -5,6 +5,7 @@ import static org.testng.Assert.assertSame;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import tests.BaseClass;
 
@@ -27,6 +28,22 @@ public class RegisterPage extends BaseClass {
 	public static void enterLastName() {
 		WebElement lastName = driver.findElement(By.id("LastName"));
 		lastName.sendKeys("Sendang");
+	}
+	
+	public static void selectDay() {
+		WebElement day = driver.findElement(By.name("DateOfBirthDay"));
+		Select select = new Select(day);
+		select.selectByValue("1");
+	}
+	public static void selectMonth() {
+		WebElement month = driver.findElement(By.name("DateOfBirthMonth"));
+		Select select = new Select(month);
+		select.selectByValue("4");
+	}
+	public static void selectYear() {
+		WebElement year = driver.findElement(By.name("DateOfBirthYear"));
+		Select select = new Select(year);
+		select.selectByValue("1916");
 	}
 	
 	public static void enterEmail() {

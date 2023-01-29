@@ -13,6 +13,9 @@ public class registerTest extends RegisterPage {
 		selectGender();
 		enterFisrtName();
 		enterLastName();
+		selectDay();
+		selectMonth();
+		selectYear();
 		enterEmail();
 		enterPassword();
 		enterConfirmPassword();
