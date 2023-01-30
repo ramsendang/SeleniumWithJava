@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-29T19:04:14 NPT" name="Default suite" finished-at="2023-01-29T19:04:18 NPT" duration-ms="4129">
+  <suite started-at="2023-01-30T17:34:28 NPT" name="Default suite" finished-at="2023-01-30T17:34:32 NPT" duration-ms="3832">
     <groups>
     </groups>
-    <test started-at="2023-01-29T19:04:14 NPT" name="Default test" finished-at="2023-01-29T19:04:18 NPT" duration-ms="4129">
+    <test started-at="2023-01-30T17:34:28 NPT" name="Default test" finished-at="2023-01-30T17:34:32 NPT" duration-ms="3832">
       <class name="tests.registerTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.registerTest@4248ed58]" started-at="2023-01-29T19:04:14 NPT" name="SetUp" finished-at="2023-01-29T19:04:16 NPT" duration-ms="1974" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.registerTest@5467eea4]" started-at="2023-01-30T17:34:28 NPT" name="SetUp" finished-at="2023-01-30T17:34:30 NPT" duration-ms="1919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="register()[pri:0, instance:tests.registerTest@4248ed58]" started-at="2023-01-29T19:04:16 NPT" name="register" finished-at="2023-01-29T19:04:18 NPT" duration-ms="2117" status="PASS">
+        <test-method signature="register()[pri:0, instance:tests.registerTest@5467eea4]" started-at="2023-01-30T17:34:30 NPT" name="register" finished-at="2023-01-30T17:34:32 NPT" duration-ms="1620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.registerTest@4248ed58]" started-at="2023-01-29T19:04:18 NPT" name="TearDown" finished-at="2023-01-29T19:04:18 NPT" duration-ms="0" status="PASS">
+        <test-method signature="register2()[pri:0, instance:tests.registerTest@5467eea4]" started-at="2023-01-30T17:34:32 NPT" name="register2" finished-at="2023-01-30T17:34:32 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register2 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.registerTest@5467eea4]" started-at="2023-01-30T17:34:32 NPT" name="TearDown" finished-at="2023-01-30T17:34:32 NPT" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
