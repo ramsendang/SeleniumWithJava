@@ -1,4 +1,4 @@
-package tests;
+package com.nopcommerce.baseclass;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +28,7 @@ public class BaseClass {
 	
 	@AfterTest
 	public void TearDown() {
-//		driver.quit();
+		driver.quit();
 		extent.flush();
 	}
 }

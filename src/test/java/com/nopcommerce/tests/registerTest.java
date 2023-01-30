@@ -1,11 +1,10 @@
-package tests;
+package com.nopcommerce.tests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
-
-import pages.RegisterPage;
+import com.nopcommerce.pages.RegisterPage;
 
 public class registerTest extends RegisterPage {
 
