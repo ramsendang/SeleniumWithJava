@@ -2,30 +2,37 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-30T20:49:47 NPT" name="Suite" finished-at="2023-01-30T20:50:02 NPT" duration-ms="14076">
+  <suite started-at="2023-02-01T19:33:08 NPT" name="Suite" finished-at="2023-02-01T19:33:14 NPT" duration-ms="6176">
     <groups>
     </groups>
-    <test started-at="2023-01-30T20:49:47 NPT" name="Test" finished-at="2023-01-30T20:50:02 NPT" duration-ms="14076">
+    <test started-at="2023-02-01T19:33:08 NPT" name="Test" finished-at="2023-02-01T19:33:14 NPT" duration-ms="6176">
       <class name="com.nopcommerce.tests.registerTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nopcommerce.tests.registerTest@102d92c4]" started-at="2023-01-30T20:49:47 NPT" name="SetUp" finished-at="2023-01-30T20:49:54 NPT" duration-ms="6094" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.nopcommerce.tests.registerTest@72209d93]" started-at="2023-02-01T19:33:08 NPT" name="SetUp" finished-at="2023-02-01T19:33:10 NPT" duration-ms="2201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="register()[pri:0, instance:com.nopcommerce.tests.registerTest@102d92c4]" started-at="2023-01-30T20:49:54 NPT" name="register" finished-at="2023-01-30T20:50:00 NPT" duration-ms="6455" status="PASS">
+        <test-method signature="register()[pri:0, instance:com.nopcommerce.tests.registerTest@72209d93]" started-at="2023-02-01T19:33:10 NPT" name="register" finished-at="2023-02-01T19:33:13 NPT" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method signature="register2()[pri:0, instance:com.nopcommerce.tests.registerTest@102d92c4]" started-at="2023-01-30T20:50:00 NPT" name="register2" finished-at="2023-01-30T20:50:00 NPT" duration-ms="2" status="PASS">
+        <test-method signature="register2()[pri:0, instance:com.nopcommerce.tests.registerTest@72209d93]" started-at="2023-02-01T19:33:13 NPT" name="register2" finished-at="2023-02-01T19:33:13 NPT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register2 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce.tests.registerTest@102d92c4]" started-at="2023-01-30T20:50:00 NPT" name="TearDown" finished-at="2023-01-30T20:50:02 NPT" duration-ms="1450" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce.tests.registerTest@72209d93]" started-at="2023-02-01T19:33:13 NPT" name="TearDown" finished-at="2023-02-01T19:33:14 NPT" duration-ms="886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.nopcommerce.tests.registerTest -->
       <class name="com.nopcommerce.tests.LoginPageTest">
-        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.tests.LoginPageTest@9a7a808]" started-at="2023-01-30T20:50:00 NPT" name="loginTest" finished-at="2023-01-30T20:50:00 NPT" duration-ms="0" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.tests.LoginPageTest@53dfacba]" started-at="2023-02-01T19:33:13 NPT" name="loginTest" finished-at="2023-02-01T19:33:13 NPT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->

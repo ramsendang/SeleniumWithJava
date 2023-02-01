@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="1" name="Test">
+ 	<parameter name="url" value="https://demo.nopcommerce.com/"></parameter>
     <classes>
       <class name="com.nopcommerce.tests.registerTest"/>
       <class name="com.nopcommerce.tests.LoginPageTest"/>

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -16,11 +17,12 @@ public class BaseClass {
 	public static ExtentReports extent = new ExtentReports();
 	public static ExtentSparkReporter spark = new ExtentSparkReporter("target/report.html");
 	@BeforeTest
-	public void SetUp() {
+	@Parameters({"url"})
+	public void SetUp(String url) {
 		WebDriverManager.chromedriver().setup();	
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://demo.nopcommerce.com/");	
+		driver.get(url);	
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setDocumentTitle("TestReport");
 		extent.attachReporter(spark);
